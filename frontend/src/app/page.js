@@ -5,7 +5,7 @@ import SourceFilter from '../components/SourceFilter';
 import Timeline from '../components/Timeline';
 import ClusterModal from '../components/ClusterModal';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+const API_BASE = process.env.API_URL || 'http://localhost:5000';
 
 export default function Home() {
   const [timelineData, setTimelineData] = useState([]);
