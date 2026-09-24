@@ -9,7 +9,6 @@ yarn-debug.log*
 .env.*.local
 
 # -- SQLite database files --------------------------
-*.sqlite
 *.sqlite-shm
 *.sqlite-wal
 
