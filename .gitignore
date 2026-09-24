@@ -1,0 +1,31 @@
+# -- Node ------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# -- Environment variables (never commit secrets) --
+.env
+.env.local
+.env.*.local
+
+# -- SQLite database files --------------------------
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# -- Next.js build output --------------------------
+frontend/.next/
+frontend/out/
+
+# -- Python ----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+scraper/venv/
+venv/
+.venv/
+
+# -- OS junk ---------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
